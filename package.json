@@ -1,6 +1,16 @@
 {
+  "name": "todos-api-stateless",
+  "version": "1.0.0",
+  "description": "Todo app with SQLite backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^5.1.0",
     "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
